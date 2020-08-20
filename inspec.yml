@@ -9,8 +9,7 @@ version: 0.1.0
 
 depends:
 - name: microsoft-windows-server-2016-stig-baseline
-  git: https://github.com/mitre/microsoft-windows-server-2016-stig-baseline
-  branch: master
+  url: https://github.com/mitre/microsoft-windows-server-2016-stig-baseline/archive/master.tar.gz
 
 inputs:
   - name: backup_operators
